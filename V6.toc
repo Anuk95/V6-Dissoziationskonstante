@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \select@language {ngerman}
 \select@language {ngerman}
 \contentsline {section}{\numberline {1}Auswertung}{3}{section.1}
@@ -9,3 +10,5 @@
 \contentsline {subsection}{\numberline {3.1}Vergleich mit dem Literaturwerten}{8}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Disskussion}{8}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Literaturverzeichnis}{10}{subsection.3.3}
+=======
+>>>>>>> origin/master
