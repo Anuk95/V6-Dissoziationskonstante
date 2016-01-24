@@ -112,7 +112,7 @@ Assistentin: & Annemarie Kehl\\
 \centering
 \begin{tabular} {| p {3 cm}|| p {3 cm}|}
   \hline
-  pH & $ K_{\mathrm{s}}$ \\\hline
+  pH & $ K_{\mathrm{s}}$ bei $22^\circ\text{C}$ \\\hline
   $6,2$ & $ (14 \pm 5) \cdot 10^{-8}$\\
   $6,4$& $ (14 \pm 5) \cdot 10^{-8}$\\
   $6,6$& $ (13 \pm 5) \cdot 10^{-8}$\\
@@ -138,106 +138,107 @@ Assistentin: & Annemarie Kehl\\
 \section{Theoretische Grundlagen}
 
 Die Dissoziationskonstante der schwachen Säure p-Nitrophenol soll mittels Photometrie gemessen werden. \\
+Dabei wird sich das Gleichgewicht der Säure in Wasser zunutze gemacht, da die dissoziierte und undissoziierte Form eine unterschiedliche Lichtintensität aufweisen, welche mittels Photometrie bestimmt wird.\\
+
 Säuren bilden in wässriger Lösung folgendes Gleichgewicht; $\mathrm{A^-}$ beschreibt den Säurerest.\\
 
 \begin{equation}
 \mathrm{HA}  \rightleftharpoons \mathrm{H^+} + \mathrm{A^-}
 \end{equation}
 
-Die Lage des Gleichgewichtes ist durch das Massenwirkungsgesetz definiert:\\
-
+Die Lage des Gleichgewichtes ist über das Massenwirkungsgesetz definiert:\\
 \begin{equation}
-K_\mathrm{c} =\frac{c(\mathrm{H+}*c{A^-}}{c(HA)}
+K_\mathrm{c} =\frac{c(\mathrm{H^+}) \cdot c\mathrm{(A^-)}}{c\mathrm{(HA)} \cdot c^0}
 \end{equation}
 
-Der $\mathrm{pK_s}$-Wert ist der negativ dekadische Logarithmus von $\mathrm{K_S}$; der PH-Wert der negativ dekadische Logarithmus der Oxoniumionenkonzentration:
+$c^0$ beschreibt eine Konzentration von 1 $\mathrm{mol{~}l^{-1}}$, damit $K_\mathrm{S}$ einheitenlos wird. Um nicht mit hohen Potenzen zu rechnen, wird meist der negativ dekadische Logarithmus von $K_\mathrm{S}$ verwandt, um die Säure, bzw. Basenstärke ("$\mathrm{p}K_\mathrm{B}$") anzugeben:\\
 
 \begin{equation}
-\mathrm{p}K_\mathrm{S} = - log_{10} (\frac{c(H^+}{c^0}
+\mathrm{p}K_\mathrm{S} = \mathrm{-log_{10}} \left(\frac{c(H^+)}{c^0}\right)
 \end{equation}
+
+Auch der pH-Wert ist dadurch folgendermaßen definiert:
 
 \begin{equation}
-\mathrm{PH}= -log_{10}(\frac{c(H^+)}{c^0})
+\mathrm{pH}= \mathrm{-log}_{10}\left(\frac{c(H^+)}{c^0}\right)
 \end{equation}
 
-$c^0$ bezeichnet die Standartkonzentration von 1 $mol\cdot l^{-1}$ und wird verwandt, um den Term einheitenlos zu machen.
-
-
-Gesucht wird somit nun $\mathrm{c(R^-)}$, da dies für die Abschwächung der Lichtintensität verantwortlich ist. Eine Pufferlösung gibt den PH-Wert vor. Bei Zugabe von einer Säure ändert sich dieser nur schwach und kann mittels der Henderson- Hasselbalch- Gleichung bestimmt werden: \\
+Da die Säurekonstante anders als der Dissoziationsgrad das Verhältnis von dissoziierten zu undissoziierten Teilchen im Gleichgewicht angibt, ist diese auch bei verschiedenen pH-Werten konstant (bei gleicher Temperatur). Um die pH-Werte, bei denen die Säurekonstante bestimmt wird dennoch konstant zu halten, werden Pufferlösungen verwandt. Die geringe Änderung des pH-Wertes durch die Pufferwirkung kann mittels der Henderson-Hasselbalch-Gleichung beschrieben werden:\\
 
 \begin{equation}
-pH = \mathrm{PK_S} + log_{10}\left( \frac{c(A^-}{c(HA)}\right)
+\mathrm{pH} = \mathrm{p}K_\mathrm{S} + \mathrm{log}_\mathrm{10}\left(\frac{c\mathrm{(A^-)}}{c\mathrm{(HA)}}\right)
 \end{equation}
 
-$\mathrm{c(A^-}$ und $\mathrm{c(HA)}$ beschreibt die Konzentrationen des Puffers im Gleichgewicht. \\
+In wässriger Lösung bildet p-Nitrophenol folgendes Gleichgewicht, wobei die dissoziierte Form eine durch das mögliche Umklappen des freien Elektronenpaares mehr Licht absorbieren und somit eine höhere Lichtundurchlässigkeit aufweist:\\
 
+\begin{figure} [h!]
+\begin{center}
+\includegraphics[scale=1]{Strukturformel2.png} \end{center}
+\caption {Dissoziation und Lichtabsorption von p-Nitrophenol in wässriger Lösung\,\protect\footnotemark}
+\end{figure}
+\footnotetext{http://www.axel-schunk.de/experiment/edm0011n.gif}
+
+
+Mittels Photometrie wird also ausschließlich die Konzentration der dissoziierten Form ermittelt, die Lichtintensität der undissoziierten Form sowie der Pufferlösung sind somit zu vernachlässigen.
+
+
+\section{Experimentelles}
 \subsection{Photometrie}
-Die Verminderung der Lichtintensität $\mathrm{d}I$ der Lösung im Vergleich zu der Lichtintensität von Wasser $I_0$, ist ein Maß für die Konzentration der absorbierenden Substanz. Sie wird über den Weg $x$, hier gleichzusetzen mit der Küvettenschichtdicke $d$. Sie wird durch das Lambert-Beersche Gesetz beschrieben ergibt die Extinktion $E$:\\
+Die Verminderung der Lichtintensität $\mathrm{d}I$ der Lösung im Vergleich zu der Lichtintensität von Wasser $I_0$, ist ein Maß für die Konzentration der absorbierenden Substanz. Sie wird über den Weg $x$ genessen, hier gleichzusetzen mit der Küvettenschichtdicke $d$. Sie wird durch das Lambert-Beersche Gesetz beschrieben ergibt die Extinktion $E$:\\
 
 \begin{equation}
 E = \epsilon _{\lambda} \cdot c \cdot d = log_{10}\left( \frac{I_0}{I}\right)
 \end{equation}
 
-$\epsilon_lambda$ beschreibt die Extinktionskonstante. 
+$\epsilon_\mathrm{\lambda}$ beschreibt die Extinktionskonstante. 
 
-
-
-
-
-
-
+Der Dissoziationsgrad $\alpha$ ist das Verhältnis aus der Konzentration von dissoziierten Teilchen im Vergleich zu der Einwaagekonzentration und damit auch das Verhältnis der gemessenen Extinktion $E_\mathrm{c}$ zu der Extinktion bei vollständiger Dissoziation $E_\infty$\\
 
 \begin{equation}
--\frac{\mathrm{d}I}{\mathrm{d}x} = \alpha \cdot c(A^-) \cdot I
+\alpha = \frac{c(\mathrm{R^-})}{c_1} = \frac{E_\mathrm{c}}{E_\infty}
 \end{equation}
 
+Durch Einsetzen in das Ostwaldsche Verdünnungsgesetz und Umformung  ergibt sich die Säurekonstante:\\
 
+\begin{equation}
+K_\mathrm{S} =\frac{c(H^+) \cdot E_\mathrm{c}}{c^0 \cdot (E_\infty - E_\mathrm{c})}
+\end{equation}
 
+Zusätzlich kann $K_\mathrm{S}$ auch grafisch aus folgendem Zusammenhang bestimmt werden:\\
 
+\begin{equation}
+c(H^+) = (\alpha^{-1} \cdot K_\mathrm{S} - K_\mathrm{S}) \cdot c^0
+\end{equation}
 
+Bei einer Auftagung von $c(\mathrm{H^+})$ gegen $\alpha^{-1}$ ergibt sich $K_\mathrm{S}$ als Steigung:\\
 
-
-
-Henderson-Hasselbalch-Gleichung, Pufferlösung und schwache Säure???
-
-
-
-
-
-
-
-
-In Lösung bildet p-Nitrophenol folgendes Gleichgewicht:
-
-
-
-
-
-
-
-
-
-
-\begin{center}
-
-\includegraphics[scale=1]{Strukturformel}
-
-\end{center}
-Die dissoziierte und undissoziierte Form weisen eine unterschiedliche Lichtdurchlässigkeit auf.
-Bei Auftreffen von Licht klappt die eine Ladung der dissoziierten Form herunter etc. und somit ist die dissoziierte Form gelb und dadurch lichtundurchlässiger als die dissoziierte Form.
-
-
-\section{Bestimmung der Dissoziationskonstante}
-
-
-
+\begin{equation}
+\frac{d{~}c(\mathrm{H^+})}{d{~}\alpha^{-1}} = K_\mathrm{S}
+\end{equation}
 
 \subsection{Versuchsaufbau}
-+ Versuchsaufbau; Photometer
+
+Folgende Grafik verdeutlicht die Funktionsweise des Photometers:
+
+\begin{figure} [h!]
+\begin{center}
+\includegraphics[scale=0.6]{Photometer.png} \end{center}
+\caption {Funktionsweise eines Photometers}
+\end{figure}
 
 \subsection{Durchführung}
-
-
+Die Extinktion wird bei 8 pH- Werten im Bereich von 6,2 bis 7,6 bei einer Wellenlänge von 420nm jeweils 6 mal im Verhältnis zu destilliertem Wasser gemessen.
+Die Phosphat-Pufferlösungen für den jeweiligen pH-Wert werden aus einer 
+$\frac{1}{15}\,\mathrm{mol{~}l^{-1}}\,\mathrm{KH_2PO_4}$\,-\,Lösung
+ (Lösung A) und einer $\frac{1}{15}\,\mathrm{mol{~}l^{-1}}\,\mathrm{Na_2HPO_4}$-Lösung (Lösung B) hergestellt. 
+ Dafür wird je ein vorgegebenes Volumen an Lösung B in einem Vollzylinder mit Lösung A auf 50 mL aufgefüllt. Anschließend werden 5 mL einer $1 \cdot 10^{-4}$ M p-Nitophenol-Lösung mit der hergestellten Pufferlösung in einem neuen Vollzylinder auf 50 mL aufgefüllt.\\
+ 
+Außerdem werden 5 mL p-Nitrophenol mit 0,1 M NaOH auf 50 mL aufgefüllt, um die Extinktion bei vollständiger Dissoziation zu bestimmen. \\
+ 
+Anschließend werden die Mittelwerte der Messungen gebildet und $\mathrm{c(H^+)}$ gegen $\alpha^-1$ aufgetragen. \\
+Zusätzlich wird die Dissoziationskonstante errechnet.\\
+ 
+Die Messung wird auf zwei Gruppen aufgeteilt, sodass jede Gruppe die Extinktion bei 4 pH-Werten misst.
 
 
 
@@ -362,7 +363,7 @@ Beispielsweise für den pH $= 6,2$ ergibt sich:\\
 \begin{align*}
 \Delta K_{\mathrm{s}} = \dfrac{10^{\mathrm{-6,2}}}{0,988-0,182} \cdot \sqrt{(\ln (10) \cdot 0,182 \cdot 0,1)^2 + \left(\dfrac{0,988 \cdot 0,000433 }{0,988-0,182}\right)^2 + \left(\dfrac{0,182 \cdot 0,00212 }{0,988-0,182}\right)^2}
 \end{align*}
-\vspace{4cm}
+\vspace{1cm}
 
 Folgende Fehler für jeden pH werden errechnet:
 \begin{table} [h]
@@ -436,6 +437,13 @@ Zur Verbesserung des Versuchs könnten zunächst letztere Ungenauigkeiten durch 
  
 \newpage
 \subsection{Literaturverzeichnis}
-https://en.wikipedia.org/wiki/4-Nitrophenol, abgerufen am \textbf{24.01.2016}
+\textbf{1} https://en.wikipedia.org/wiki/4-Nitrophenol, abgerufen am \textbf{24.01.2016}\\
+\textbf{2} Götz, Eckold: \emph{Sriptum zur Einführung in die physikalische Chemie}, Institut für physikalische Chemie, Uni Göttingen, \textbf{2015}.\\
+\textbf{3} \emph{Skriptum für das Praktikum zur Einführung in die Physikalische Chemie}, Institut für physikalische Chemie, Uni Göttingen, \textbf{2015}.\\
+
+
+
+
+
 
 \end{document}
