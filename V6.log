@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.8)  3 FEB 2016 19:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.11.8)  3 FEB 2016 20:22
 entering extended mode
 **V6.tex
 (V6.tex
@@ -1200,9 +1200,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 156--157
  []
 
 
-Overfull \hbox (11.72124pt too wide) in paragraph at lines 168--171
-\OT1/cmr/m/n/12 Die ge-rin-ge pH-Wert []Anderung bei die-ser Re-ak-ti-on kann m
-it-tels der Henderson-Hasselbalch
+Overfull \hbox (11.0907pt too wide) in paragraph at lines 168--171
+\OT1/cmr/m/n/12 Die ge-rin-ge $\OML/cmm/m/it/12 p$\OT1/cmr/m/n/12 H-Wert []Ande
+rung bei die-ser Re-ak-ti-on kann mit-tels der Henderson-Hasselbalch
  []
 
 
@@ -1382,17 +1382,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 406--410
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 411--415
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--415
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 411--415
+Underfull \hbox (badness 10000) in paragraph at lines 411--416
 
  []
 
@@ -1508,7 +1498,7 @@ eX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2
 nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
 ype1/public/amsfonts/symbols/msam10.pfb>
-Output written on V6.pdf (13 pages, 808998 bytes).
+Output written on V6.pdf (13 pages, 809005 bytes).
 PDF statistics:
  248 PDF objects out of 1000 (max. 8388607)
  52 named destinations out of 1000 (max. 500000)
