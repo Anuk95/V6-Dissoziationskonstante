@@ -113,7 +113,7 @@ Assistentin: & Annemarie Kehl\\
 \centering
 \begin{tabular} {| p {3 cm}|| p {3 cm}|}
   \hline
-  pH & $ K_{\mathrm{s}}$ \\\hline
+  pH & $ K_{\mathrm{s}}$ \\\hline\hline
   $6,2$ & $ (14 \pm 5) \cdot 10^{-8}$\\
   $6,4$& $ (14 \pm 5) \cdot 10^{-8}$\\
   $6,6$& $ (13 \pm 5) \cdot 10^{-8}$\\
@@ -139,106 +139,109 @@ Assistentin: & Annemarie Kehl\\
 \section{Theoretische Grundlagen}
 
 Die Dissoziationskonstante der schwachen Säure p-Nitrophenol soll mittels Photometrie gemessen werden. \\
-Säuren bilden in wässriger Lösung folgendes Gleichgewicht; $\mathrm{A^-}$ beschreibt den Säurerest.\\
+Dabei wird sich das Gleichgewicht der Säure in Wasser zunutze gemacht, da die dissoziierte und undissoziierte Form eine unterschiedliche Abschwächung der Lichtintensität aufweisen, welche mittels Photometrie bestimmt wird.\\
+
+Säuren bilden in wässriger Lösung folgendes Gleichgewicht; $\mathrm{A^-}$ beschreibt den Säurerest.
 
 \begin{equation}
 \mathrm{HA}  \rightleftharpoons \mathrm{H^+} + \mathrm{A^-}
 \end{equation}
 
-Die Lage des Gleichgewichtes ist durch das Massenwirkungsgesetz definiert:\\
+Die Lage des Gleichgewichtes kann mithilfe des Massenwirkungsgesetzes beschrieben werden. Anstelle der Aktivitäten werden hier vereinfacht die Konzentrationen verwendet:\\
 
 \begin{equation}
-K_\mathrm{c} =\frac{c(\mathrm{H+}*c{A^-}}{c(HA)}
+K_\mathrm{c} =\frac{c(\mathrm{H^+}) \cdot c\mathrm{(A^-)}}{c\mathrm{(HA)} \cdot c^0}
 \end{equation}
 
-Der $\mathrm{pK_s}$-Wert ist der negativ dekadische Logarithmus von $\mathrm{K_S}$; der PH-Wert der negativ dekadische Logarithmus der Oxoniumionenkonzentration:
+$c^0$ beschreibt eine Konzentration von 1 $\mathrm{mol{~}l^{-1}}$, damit $K_\mathrm{S}$ einheitenlos wird. Um nicht mit hohen Potenzen zu rechnen, wird meist der negativ dekadische Logarithmus von $K_\mathrm{S}$ verwandt, um die Säurestärke anzugeben. Analog kann dies auch für Basen ("$\mathrm{p}K_\mathrm{B}$") verwandt werden.\\
 
 \begin{equation}
-\mathrm{p}K_\mathrm{S} = - log_{10} (\frac{c(H^+}{c^0}
+\mathrm{p}K_\mathrm{S} = \mathrm{-log_{10}} \left(\frac{c(H^+)}{c^0}\right)
 \end{equation}
+
+Der pH-Wert ist folgendermaßen definiert:
 
 \begin{equation}
-\mathrm{PH}= -log_{10}(\frac{c(H^+)}{c^0})
+\mathrm{pH}= \mathrm{-log}_{10}\left(\frac{c(H^+)}{c^0}\right)
 \end{equation}
 
-$c^0$ bezeichnet die Standartkonzentration von 1 $mol\cdot l^{-1}$ und wird verwandt, um den Term einheitenlos zu machen.
-
-
-Gesucht wird somit nun $\mathrm{c(R^-)}$, da dies für die Abschwächung der Lichtintensität verantwortlich ist. Eine Pufferlösung gibt den PH-Wert vor. Bei Zugabe von einer Säure ändert sich dieser nur schwach und kann mittels der Henderson- Hasselbalch- Gleichung bestimmt werden: \\
-
-%\begin{equation}
-%pH = \mathrm{PK_S} + log_{10}\left( \frac{c(A^-}{c(HA)}
-%\end{equation}
-
-$\mathrm{c(A^-}$ und $\mathrm{c(HA)}$ beschreibt die Konzentrationen des Puffers im Gleichgewicht. \\
-
-\subsection{Photometrie}
-Die Verminderung der Lichtintensität $\mathrm{d}I$ der Lösung im Vergleich zu der Lichtintensität von Wasser $I_0$, ist ein Maß für die Konzentration der absorbierenden Substanz. Sie wird über den Weg $x$, hier gleichzusetzen mit der Küvettenschichtdicke $d$. Sie wird durch das Lambert-Beersche Gesetz beschrieben ergibt die Extinktion $E$:\\
-
-%\begin{equation}
-%E = \epsilon _\lambda \cdot c \cdot d = log_{10}\left( %\frac{I_0}{I}
-%\end{equation}
-
-$\epsilon_lambda$ beschreibt die Extinktionskonstante. 
-
-
-
-
-
-
-
+Anders als der Dissoziationsgrad gibt die Säurekonstante nicht das Verhältnis von dissoziierten Teilchen zur Einwaagekonzentration, sondern zu undissoziierten Teilchen im Gleichgewicht und ist daher eine pH-unabhängige aber temperaturabhängige Konstante.\\
+Um pH-Werte auch bei Zugabe von Säure bzw. Base konstant zu halten, werden Pufferlösungen verwandt. Puffer sind schwache Säuren (oder Basen) mit ihrem konjugierten Salz. Bei Zugabe von Oxonium- bzw. Hydroxidionen werden diese durch den Puffer abgefangen.\\
+Die geringe pH-Wert Änderung bei dieser Reaktion kann mittels der Henderson-Hasselbalch Gleichung beschrieben werden:\\
 
 \begin{equation}
--\frac{\mathrm{d}I}{\mathrm{d}x} = \alpha \cdot c(A^-) \cdot I
+\mathrm{pH} = \mathrm{p}K_\mathrm{S} + \mathrm{log}_\mathrm{10}\left(\frac{c\mathrm{(A^-)}}{c\mathrm{(HA)}}\right)
 \end{equation}
 
+In wässriger Lösung bildet p-Nitrophenol folgendes Gleichgewicht: 
 
-
-
-
-
-
-
-Henderson-Hasselbalch-Gleichung, Pufferlösung und schwache Säure???
-
-
-
-
-
-
-
-
-In Lösung bildet p-Nitrophenol folgendes Gleichgewicht:
-
-
-
-
-
-
-
-
-
-
+\begin{figure} [h!]
 \begin{center}
-
-\includegraphics[scale=1]{Strukturformel}
-
-\end{center}
-Die dissoziierte und undissoziierte Form weisen eine unterschiedliche Lichtdurchlässigkeit auf.
-Bei Auftreffen von Licht klappt die eine Ladung der dissoziierten Form herunter etc. und somit ist die dissoziierte Form gelb und dadurch lichtundurchlässiger als die dissoziierte Form.
+\includegraphics[scale=1]{Strukturformel2.png} \end{center}
+\caption {Dissoziation und Lichtabsorption von p-Nitrophenol in wässriger Lösung\,\protect\footnotemark}
+\end{figure}
+\footnotetext{http://www.axel-schunk.de/experiment/edm0011n.gif}
 
 
-\section{Bestimmung der Dissoziationskonstante}
+Eintreffende Strahlung kann von der dissoziierten Form im Gegensatz zu der undissoziierten Form durch Umklappen des freien Elektronenpaares absorbiert werden; somit ist die Abschwächung der Lichtintensität der dissoziierten Form größer.
 
+\section{Experimentelles}
+\subsection{Photometrie}
+Die Verminderung der Lichtintensität $\mathrm{d}I$ der Lösung im Vergleich zu der Lichtintensität von Wasser $I_0$, ist ein Maß für die Konzentration der absorbierenden Substanz. Sie wird über den Weg $x$ genessen, hier gleichzusetzen mit der Küvettenschichtdicke $d$. Sie wird durch das Lambert-Beersche Gesetz beschrieben ergibt die Extinktion $E$:\\
 
+\begin{equation}
+E = \epsilon _{\lambda} \cdot c \cdot d = \mathrm{log_{10}}\left( \frac{I_0}{I}\right)
+\end{equation}
 
+$\epsilon_\mathrm{\lambda}$ beschreibt die Extinktionskonstante. 
+
+Der Dissoziationsgrad $\alpha$ ist das Verhältnis aus der Konzentration von dissoziierten Teilchen im Vergleich zu der Einwaagekonzentration und damit auch das Verhältnis der gemessenen Extinktion $E_\mathrm{c}$ zu der Extinktion bei vollständiger Dissoziation $E_\infty$\\
+
+\begin{equation}
+\alpha = \frac{c(\mathrm{R^-})}{c_1} = \frac{E_\mathrm{c}}{E_\infty}
+\end{equation}
+
+Durch Einsetzen in das Ostwaldsche Verdünnungsgesetz und Umformung  ergibt sich die Säurekonstante:\\
+
+\begin{equation}
+K_\mathrm{S} =\frac{c(H^+) \cdot E_\mathrm{c}}{c^0 \cdot (E_\infty - E_\mathrm{c})}
+\end{equation}
+
+Zusätzlich kann $K_\mathrm{S}$ auch grafisch aus folgendem Zusammenhang bestimmt werden:\\
+
+\begin{equation}
+c(H^+) = (\alpha^{-1} \cdot K_\mathrm{S} - K_\mathrm{S}) \cdot c^0
+\end{equation}
+
+Bei einer Auftagung von $c(\mathrm{H^+})$ gegen $\alpha^{-1}$ ergibt sich $K_\mathrm{S}$ als Steigung:\\
+
+\begin{equation}
+\frac{d{~}c(\mathrm{H^+})}{d{~}\alpha^{-1}} = K_\mathrm{S}
+\end{equation}
 
 \subsection{Versuchsaufbau}
-+ Versuchsaufbau; Photometer
+
+Folgende Grafik verdeutlicht die Funktionsweise des Photometers:
+
+\begin{figure} [h!]
+\begin{center}
+\includegraphics[scale=0.6]{Photometer.png} \end{center}
+\caption {Funktionsweise eines Photometers}
+\end{figure}
 
 \subsection{Durchführung}
-
-
+Die Extinktion wird bei 8 pH- Werten im Bereich von 6,2 bis 7,6 bei einer Wellenlänge von 420nm jeweils 6 mal im Verhältnis zu destilliertem Wasser gemessen.
+Die Phosphat-Pufferlösungen für den jeweiligen pH-Wert werden aus einer 
+$\frac{1}{15}\,\mathrm{mol{~}l^{-1}}\,\mathrm{KH_2PO_4}$\,-\,Lösung
+ (Lösung A) und einer $\frac{1}{15}\,\mathrm{mol{~}l^{-1}}\,\mathrm{Na_2HPO_4}$-Lösung (Lösung B) hergestellt. 
+ Dafür wird je ein vorgegebenes Volumen an Lösung B in einem Vollzylinder mit Lösung A auf 50 mL aufgefüllt. Anschließend werden 5 mL einer $1 \cdot 10^{-4}$ M p-Nitophenol-Lösung mit der hergestellten Pufferlösung in einem neuen Vollzylinder auf 50 mL aufgefüllt.\\
+ 
+Außerdem werden 5 mL p-Nitrophenol mit 0,1 M NaOH auf 50 mL aufgefüllt, um die Extinktion bei vollständiger Dissoziation zu bestimmen. \\
+ 
+Anschließend werden die Mittelwerte der Messungen gebildet und $\mathrm{c(H^+)}$ gegen $\alpha^-1$ aufgetragen. \\
+Zusätzlich wird die Dissoziationskonstante errechnet.\\
+ 
+Die Messung wird auf zwei Gruppen aufgeteilt, sodass jede Gruppe die Extinktion bei 4 pH-Werten misst.
 
 
 
@@ -248,7 +251,7 @@ Im Versuch wird die Messung der Extinktion für jeden pH, sowie für $E_{\infty}
 \begin{table} [h]
 \begin{tabular} {| p {1,5 cm}|| p {3 cm}| p{2cm}|}
   \hline
-  pH & $\overline{E}$& $E_{\infty}$ \\\hline
+  pH & $\overline{E}$& $E_{\infty}$ \\\hline\hline
   $6,2$& $0,182$&$0,988$\\
   $6,4$& $0,255$&$0,988$\\
   $6,6$& $0,347$&$0,988$\\
@@ -272,12 +275,14 @@ Ebenfalls kann nun $\alpha$ bestimmt werden durch:
 \alpha = \frac{E_{\mathrm{c}}}{E_{\infty}}
 \end{align}
 
+
 Somit ergibt sich:
+
 
 \begin{table} [h]
 \begin{tabular} {| p {1,5 cm}|| p {6 cm}| p{6cm}|}
   \hline
-  pH & $K_{\mathrm{s}}$ & $\alpha$ \\\hline
+  pH & $K_{\mathrm{s}}$ & $\alpha$ \\\hline\hline
   &&\\
   $6,2$ & 
   $ K_{\mathrm{s}} = \frac{10^{-6,2} \cdot 0,988}{c^{\circ} \cdot (0,988 - 0,182) } = 14,25 \cdot 10^-8 
@@ -363,13 +368,13 @@ Beispielsweise für den pH $= 6,2$ ergibt sich:\\
 \begin{align*}
 \Delta K_{\mathrm{s}} = \dfrac{10^{\mathrm{-6,2}}}{0,988-0,182} \cdot \sqrt{(\ln (10) \cdot 0,182 \cdot 0,1)^2 + \left(\dfrac{0,988 \cdot 0,000433 }{0,988-0,182}\right)^2 + \left(\dfrac{0,182 \cdot 0,00212 }{0,988-0,182}\right)^2}
 \end{align*}
-\vspace{4cm}
+\vspace{3cm}
 
 Folgende Fehler für jeden pH werden errechnet:
 \begin{table} [h]
 \begin{tabular} {| p {1,5 cm}|| p {3 cm}|}
   \hline
-  pH & $ \Delta K_{\mathrm{s}}$ \\\hline
+  pH & $ \Delta K_{\mathrm{s}}$ \\\hline\hline
   $6,2$ & $ 5 \cdot 10^{-8}$\\
   $6,4$& $ 5\cdot 10^{-8}$\\
   $6,6$& $ 5\cdot 10^{-8}$\\
@@ -400,7 +405,10 @@ K_{\mathrm{s{~}max}} = \frac{\Delta c(H^+)}{\Delta \alpha^{-1} \cdot c^{\circ}} 
 \subsection{Diskussion Systematischer Fehler}
 Zusätzlich zu den Fehlern aus der Fehlerfortpflanzung gibt es noch weitere systematische Fehler, welche sich quantitativ nicht erfassen lassen.\\
 Die Berechnung von $K_{\mathrm{s}}$ erfolgt über die Konzentration an $\mathrm{H_3 O^+}$-Ionen sowie durch die Bestimmung der Extinktion. Beide Messgrößen können durch systematische Fehler verfälscht werden.\\\\
-Die Extinktion wird durch ein Spektralphotometer bestimmt, dabei werden die angesetzten Lösungen verschiedener pH im Wechsel mit reinem Wasser photometriert. Dabei könnte das reine Wasser verunreinigt, oder die Küvette beschmutzt sein. Dies würde im Endeffekt zur Bestimmung einer kleineren Dissoziationskonstante führen. Das verunreinigte Wasser würde das Licht mehr Abschwächen als es sollte, dadurch wäre die Abschwächung der Lichtintensität durch die Lösung im Vergleich dazu nicht so stark sein, was eine schwächere Dissoziation bedeuten würde.\\ Des weiteren ist es möglich, dass bei der Messung mit dem Photometer dieses nicht vollständig geschlossen wurde und ein wenig zusätzliches Licht einfällt. Passiert dies auf der Seite des reinen Wassers würde sich analog zu obiger Überlegung eine größere Dissoziationskonstante ergeben. Geschieht es auf der Seite der Lösung würde der zusätzliche Lichteinfall zur Bestimmung einer kleineren Extinktion und damit auch kleineren Dissoziationskonstante.\\ Dabei ist weiterhin der Fall zu beachten, in dem die Extinktion für $E_{\infty}$ verfälscht wird. Hier würde ein zu großer Wert für die Extinktion einen zu kleinen Wert der Dissoziationskonstante bewirken.\\\\
+Die Extinktion wird durch ein Spektralphotometer bestimmt, dabei werden die angesetzten Lösungen verschiedener pH im Wechsel mit reinem Wasser photometriert. Dabei könnte das reine Wasser verunreinigt, oder die Küvette beschmutzt sein. Dies würde im Endeffekt zur Bestimmung einer kleineren Dissoziationskonstante führen. Das verunreinigte Wasser würde das Licht mehr Abschwächen als es sollte, dadurch wäre die Abschwächung der Lichtintensität durch die Lösung im Vergleich dazu nicht so stark sein, was eine schwächere Dissoziation bedeuten würde.\\
+Außerdem ist Abschwächung der Lichtintensität der Pufferlösung nicht bekannt bzw. es wurde davon ausgegangen, dass diese nicht anders als die Abschwächung der Lichtintensität von Wasser ist, da im Bezug zu Wasser gemessen wurde. Für genauere Ergebnisse sollte geprüft werden, ob die Pufferlösung eine andere Abschwächung der Lichtintensität bewirkt bzw. die Messungen im Bezug auf die Pufferlösung durchgeführt werden.\\
+
+ Des weiteren ist es möglich, dass bei der Messung mit dem Photometer dieses nicht vollständig geschlossen wurde und ein wenig zusätzliches Licht einfällt. Passiert dies auf der Seite des reinen Wassers würde sich analog zu obiger Überlegung eine größere Dissoziationskonstante ergeben. Geschieht es auf der Seite der Lösung würde der zusätzliche Lichteinfall zur Bestimmung einer kleineren Extinktion und damit auch kleineren Dissoziationskonstante.\\ Dabei ist weiterhin der Fall zu beachten, in dem die Extinktion für $E_{\infty}$ verfälscht wird. Hier würde ein zu großer Wert für die Extinktion einen zu kleinen Wert der Dissoziationskonstante bewirken.\\\\
 Des weiteren wird mit der Konzentration an $\mathrm{H_3 O^+}$-Ionen gerechnet. Zur Bestimmung dieser werden Pufferlösungen angesetzt. Bei der Herstellung dieser kann es durch ungenaues Arbeiten zu Fehlern kommen.\\ 
 Des weiteren ist p-Nitrophenol eine schwache Säure und eine Veränderung der Konzentration an $\mathrm{H_3 O^+}$-Ionen. Diese ist zwar durch den Puffer sehr gering, wird aber dennoch näherungsweise außer Acht gelassen.\\
 Insgesamt kann man sagen, dass bei einer eigentlich höheren Konzentration an $\mathrm{H_3 O^+}$-Ionen die bestimmte Dissoziationskonstante zu klein ist und andersherum.\\\\
@@ -427,16 +435,25 @@ Mit den absoluten Fehlern ergeben sich folgende Werte für $ K_{\mathrm{s}}$:
 
 Sowie für die Auftragung: $K_{\mathrm{s}} = (15 \pm 5) \cdot 10^{-8} $
 
-Der Literaturwert liegt bei $pK_{\mathrm{s}} = 7,16$ bei $22^{\circ}$C \footnote{https://en.wikipedia.org/wiki/4-Nitrophenol, abgerufen am 24.01.2016} woraus sich der $K_{\mathrm{s}} = 6,92 \cdot 10^{-8}$ ergibt.
+Der Literaturwert liegt bei $pK_{\mathrm{s}} = 7,16$ bei $22{~}^{\circ}$C \footnote{https://en.wikipedia.org/wiki/4-Nitrophenol, abgerufen am 24.01.2016} woraus sich der $K_{\mathrm{s}} = 6,92 \cdot 10^{-8}$ ergibt.
 
 
 \subsection{Disskussion}
+Zunächst muss im Vergleich mit dem Literaturwert beachtet werden, dass $K_{\mathrm{s}}$ temperaturabhängig ist. Der Literaturwert gilt bei $22{~}^{\circ}$C. Leider wurde am Versuchstag nicht die Zimmertemperatur gemessen, aber dennoch lassen sich die Abweichungen vom Literaturwert auch durch die Bestimmung der Konstante bei einer anderen Temperatur erklären.\\\\
+
 Im Vergleich mit den Literaturwerten ist auffällig, das alle Werte eher nach oben abweichen. Die Werte von $ \mathrm{pH} = 7,0- 7,6$ sind näher am Literaturwert und schließen diesen mit ihrem Fehlerintervall ein, während die Werte von $ \mathrm{pH} = 6,2- 6,8$ noch mit dem Fehlerintervall zu groß sind. Der Wert aus der Auftragung weicht am stärksten vom Literaturwert ab. Dies ist dadurch zu erklären, dass beim Zeichnen vor allem die eher fehlerhaften Werte von $ \mathrm{pH} = 6,2- 6,8$ beachtet werden, da die anderen Werte sehr dicht aneinander liegen. Daher wurden bei der Bestimmung der minimalen Steigung vor allem die ersten vier Werte beachtet.\\\\
 Die zusätzlichen Abweichungen lassen sich durch systematische Fehler erklären. Da die Werte von unterschiedlichen Photometern gemessen wurden, ist möglicherweise das eine Photometer fehlerhaft. Dies rechtfertigt auch das außer Acht lassen der Werte in der Bestimmung des minimalen Wertes für $K_{\mathrm{s}}$. Des weiteren  kann wie bereits erläutert eine Abweichung der Werte nach oben durch Lichteinfall auf der Seite des reinen Wassers, Lichteinfall beim Messen von $E_{\infty}$, oder Ungenauigkeiten beim Herstellen der Pufferlösungen, sowie die dabei durchgeführten Näherungen entstehen.\\\\
 Zur Verbesserung des Versuchs könnten zunächst letztere Ungenauigkeiten durch den Gebrauch von größeren Pipetten vermieden werden. Da nämlich die benutzen Pipetten lediglich $10{~} \mathrm{ml}$ umfassten musste die Lösung in mehreren Teilschritten angesetzt werden, was relativ fehleranfällig ist. Des weiteren müssten die Messungen häufiger durchgeführt werden, außerdem auch mit jeweils einem neuen Teil der Lösungen.
  
 \newpage
 \subsection{Literaturverzeichnis}
-https://en.wikipedia.org/wiki/4-Nitrophenol, abgerufen am \textbf{24.01.2016}
+\textbf{1} https://en.wikipedia.org/wiki/4-Nitrophenol, abgerufen am \textbf{24.01.2016}\\
+\textbf{2} Götz, Eckold: \emph{Sriptum zur Einführung in die physikalische Chemie}, Institut für physikalische Chemie, Uni Göttingen, \textbf{2015}.\\
+\textbf{3} \emph{Skriptum für das Praktikum zur Einführung in die Physikalische Chemie}, Institut für physikalische Chemie, Uni Göttingen, \textbf{2015}.\\
+
+
+
+
+
 
 \end{document}
